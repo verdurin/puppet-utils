@@ -10,7 +10,7 @@ class utils {
     $utilsPackageList = [ 
         "curl",
         "lsof",
-        "lynx",
+        "links",
         "nc",
         "nmap",
         "screen",
@@ -18,7 +18,9 @@ class utils {
         "sysstat",
         "tcpdump",
         "telnet",
-        "wget"
+        "wget",
+        "bash-completion",
+        "lsscsi"
     ] # $utilsPackageList
 
     package { $utilsPackageList: }
